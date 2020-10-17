@@ -19,4 +19,3 @@ class MainWindow(QMainWindow):
     @Slot()
     def click_agregar(self):
         print('click')
-        

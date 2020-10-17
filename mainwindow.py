@@ -15,7 +15,7 @@ class MainWindow(QMainWindow):
         ui.setupUi(self)
         #Configurar el evento click del boton
         ui.pushButton.clicked.connect(self.click_agregar)
-    
+
     @Slot()
     def click_agregar(self):
         print('click')

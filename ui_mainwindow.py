@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 ################################################################################
 ## Form generated from reading UI file 'mainwindow.ui'
 ##
@@ -161,6 +159,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
+
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
 
@@ -179,4 +178,3 @@ class Ui_MainWindow(object):
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Origen en Y", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Agregar", None))
     # retranslateUi
-
